@@ -656,8 +656,8 @@ export const DATA = {
       ],
     },
     {
-      title: "Portal Hackathon",
-      dates: "October 29, 2016",
+      title: "Mrlexcode",
+      dates: "2025",
       location: "Kingston, Ontario",
       description:
         "Developed an internal widget for uploading assignments using Waterloo's portal app",
