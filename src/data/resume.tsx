@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Amit Sandhu",
   initials: "AS",
-  url: "https://dillion.io",
+  url: "https://techdulx.com",
   location: "Himachal Pradesh, UNA",
   locationLink: "https://maps.app.goo.gl/S9JCSQNuzyEXjev19",
   description:
@@ -13,17 +13,19 @@ export const DATA = {
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
   avatarUrl: "/me.png",
   skills: [
-    "React",
+    "React Native",
     "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
+    "Html / Css",
+    "JS",
     "Java",
-    "C++",
+    "PHP",
+    "firebase",
+    "mysql",
+    "SEO",
+    "Adsense google (ADX)",
+    "Google search console / Analytic",
+
+   
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
