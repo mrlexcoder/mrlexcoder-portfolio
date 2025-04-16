@@ -97,18 +97,7 @@ export const DATA = {
       "description": "Worked on various Google products, including Google Search, Google Ads, Google AdX, and Google AdSense. Developed websites optimized for Google AdSense, ensuring compliance with advertising policies and maximizing ad revenue. Provided technical support for ad integrations and performance optimization."
     }
     
-    // {
-    //   company: "Nvidia",
-    //   href: "https://nvidia.com/",
-    //   badges: [],
-    //   location: "Santa Clara, CA",
-    //   title: "Software Engineer",
-    //   logoUrl: "/nvidia.png",
-    //   start: "January 2020",
-    //   end: "April 2020",
-    //   description:
-    //     "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    // },
+
    
   ],
   education: [
@@ -155,8 +144,7 @@ export const DATA = {
         },
       ],
       image: "/himachalgovt-portfolio.jpg",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+     
     },
     {
       title: "Techdulx Next JS",
