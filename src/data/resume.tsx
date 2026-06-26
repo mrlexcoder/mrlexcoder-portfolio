@@ -41,7 +41,6 @@ export const DATA = {
   contact: {
     email: "amitsandhu6424@gmail.com",
     workEmail: "dev@himachalgovt.com",
-    webmailUrl: "https://webmail.himachalgovt.com/",
     tel: "+918628882486",
     social: {
       GitHub: {

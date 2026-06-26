@@ -80,16 +80,6 @@ export default function ResourcesPage() {
                 {DATA.contact.email}
               </Link>
             </p>
-            <p>
-              <span className="text-muted-foreground">Webmail: </span>
-              <Link
-                href={DATA.contact.webmailUrl}
-                target="_blank"
-                className="text-blue-500 hover:underline"
-              >
-                webmail.himachalgovt.com
-              </Link>
-            </p>
           </CardContent>
         </Card>
       </BlurFade>
