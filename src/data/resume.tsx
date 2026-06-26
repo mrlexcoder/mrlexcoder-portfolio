@@ -2,71 +2,68 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Amit Sandhu",
-  initials: "AS",
-  url: "https://techdulx.com",
-  location: "Himachal Pradesh, UNA",
+  name: "Amit Kumar",
+  initials: "AK",
+  url: "https://dev.himachalgovt.com",
+  location: "Himachal Pradesh, India",
   locationLink: "https://maps.app.goo.gl/S9JCSQNuzyEXjev19",
   description:
-    "Full Stack developer. I love building things and helping people.",
+    "Full-Stack Developer building web and mobile products for real clients.",
   summary:
-    "I love learning new technologies and building cool things. Most of my work is done by searching online, and now with Ai, I understand code even faster. I don’t focus on memorizing everything—I focus on how things work and how to make them run. My search skills are strong, and that helps me solve almost any problem. I also enjoy open-source tools(#code), Linux, and working on real projects.",
+    "Full-Stack Developer with 2+ years of experience building web and mobile products. Skilled in JavaScript, React Native, Next.js, PHP, Node.js, MongoDB, Firebase, and Linux server deployment. I use modern AI tools (Cursor, Claude) daily for faster development, debugging, and delivery — focused on shipping reliable products, not memorizing syntax.",
   avatarUrl: "/me.png",
   skills: [
+    "JavaScript",
+    "TypeScript",
     "React Native",
     "Next.js",
-    "Html / Css",
-    "JS",
-    "Java",
     "PHP",
-    "firebase",
-    "mysql",
+    "Laravel",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "MySQL",
+    "Firebase",
+    "WordPress",
+    "REST APIs",
+    "Linux / Ubuntu",
+    "Nginx",
+    "AWS EC2",
     "SEO",
-    "Adsense google (ADX)",
-    "Google search console / Analytic",
-
-   
+    "Git",
+    "Cursor AI",
+    "Claude AI",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "mrlexcoder@gmail.com",
+    email: "amitsandhu6424@gmail.com",
     tel: "+918628882486",
     social: {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/mrlexcoder",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/amit-sandhu--/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
-        name: "In",
+        name: "Instagram",
         url: "https://www.instagram.com/amit.sandhu__/",
         icon: Icons.x,
-
         navbar: true,
       },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:amitsandhu6424@gmail.com",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -74,202 +71,193 @@ export const DATA = {
 
   work: [
     {
-      company: "Own Info Tech Pvt. Ltd",
+      company: "Own Info Tech Pvt. Ltd.",
       href: "https://owninfotech.com/",
       badges: [],
       location: "Anandpur Sahib",
       title: "Web & App Developer",
       logoUrl: "/atomic.png",
-      start: "Auguest 2024",
-      end: "Continue. .",
+      start: "Aug 2024",
+      end: "Present",
       description:
-        "We work with international & domastic clients, helping businesses go online by designing and developing apps and websites. We also build mobile apps using Android java, React Native and TypeScript.",
+        "Build and maintain client websites and mobile apps using WordPress, PHP, Laravel, Next.js, and React Native. Deploy on Linux VPS with Nginx, optimize performance and security, and use Cursor + Claude AI daily to ship features faster.",
     },
     {
-      "company": "Google",
-      "badges": [],
-      "href": "https://google.com",
-      "location": "Remote",
-      "title": "Google Product Specialist",
-      "logoUrl": "/google.svg",
-      "start": "January 2023",
-      "end": "April 2024",
-      "description": "Worked on various Google products, including Google Search, Google Ads, Google AdX, and Google AdSense. Developed websites optimized for Google AdSense, ensuring compliance with advertising policies and maximizing ad revenue. Provided technical support for ad integrations and performance optimization."
-    }
-    
-
-   
+      company: "KV IT Solutions Pvt. Ltd.",
+      badges: [],
+      href: "https://kvitsolutions.com/",
+      location: "Remote",
+      title: "Junior Linux Administrator",
+      logoUrl: "/nvidia.png",
+      start: "Jul 2023",
+      end: "Aug 2024",
+      description:
+        "Installed and configured Ubuntu servers, Oracle databases, and SSH access. Managed Apache, Nginx, WHM/cPanel hosting, DNS, SMTP, firewalls, and server security for production client environments.",
+    },
   ],
   education: [
     {
-      school: "I. K. Gujral Punjab Technical University ",
+      school: "I.K. Gujral Punjab Technical University (PTU)",
       href: "https://ptu.ac.in/",
-      degree: "Computer Science Engineering",
+      degree: "B.Tech — Computer Science Engineering (CGPA 7.5)",
       logoUrl: "/buildspace.jpg",
       start: "2018",
       end: "2022",
     },
-    {
-      school: "hp board of school education",
-      href: "https://www.hpbose.org/",
-      degree: "12th",
-      logoUrl: "/waterloo.png",
-      start: "2017",
-      end: "2018",
-    },
-   
   ],
   projects: [
     {
-      title: "Himachal Govt website",
+      title: "HimachalGovt.com",
       href: "https://himachalgovt.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "2024 — Present",
       active: true,
       description:
-      "Himachal Govt is an informational website developed for the people of Himachal Pradesh. It provides government-related updates, resources, and official announcements in a user-friendly format. The project focused on optimizing SEO, integrating Google Adsense for monetization, and connecting Google Analytics and Search Console for performance tracking. Built with WordPress and PHP, the platform ensures easy content management and smooth scalability.",
-
+        "Public platform for Himachal Pradesh — government jobs, news, yojana, technology, and district updates. Built with WordPress, PHP, and custom plugins. Hosted on Linux VPS with SEO, Google Analytics, Search Console, and AdSense integration.",
       technologies: [
-        "Wordpress",
-        "php",
-        "Seo",
-        "Google adsense",
-        "google console/analytic",
-    
+        "WordPress",
+        "PHP",
+        "JavaScript",
+        "Tailwind CSS",
+        "SEO",
+        "Linux VPS",
+        "Google Analytics",
       ],
       links: [
         {
           type: "Website",
-          href: "https://Himachalgovt.com",
+          href: "https://himachalgovt.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/himachalgovt-portfolio.jpg",
-     
+      image: "/himachalgovt-preview.jpg",
     },
     {
-      title: "Techdulx Next JS",
-      href: "https://techdulx-main.vercel.app/",
-      dates: "June 2025 - Present",
+      title: "HimachalGovt Android App",
+      href: "https://play.google.com/store/apps/details?id=mrlexcoder.himachalgovt",
+      dates: "2025 — Testing",
       active: true,
       description:
-      "Techdulx is a modern portfolio and service-based website built with Next.js. Designed for learning and showcasing UI skills, it features animated components, Stripe integration, and a clean UI using Shadcn and Magic UI. This project helped me explore full-stack development with TypeScript, Prisma, and PostgreSQL.",
-    
+        "Official HimachalGovt mobile app for jobs, news, and government updates on Android. Currently in Google Play testing phase — push notifications, fast browsing, and the same trusted content as the website.",
+      technologies: [
+        "React Native",
+        "Android",
+        "Firebase",
+        "REST API",
+        "Push Notifications",
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=mrlexcoder.himachalgovt",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/himachalgovt-app-preview.jpg",
+    },
+    {
+      title: "Titan Drilling Mobile App",
+      href: "https://github.com/mrlexcoder",
+      dates: "2024 — 2025",
+      active: true,
+      description:
+        "Field operations app with Node.js backend for inspections, HSE forms, job cards, and incident reports. Offline sync, PDF reports, email alerts, and role-based access for production teams.",
+      technologies: [
+        "React Native",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Firebase",
+        "PDF Reports",
+      ],
+      links: [
+        {
+          type: "Private",
+          href: "https://github.com/mrlexcoder",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/himachalgovt-portfolio.jpg",
+    },
+    {
+      title: "Techdulx Next.js",
+      href: "https://techdulx-main.vercel.app/",
+      dates: "Jun 2025 — Present",
+      active: true,
+      description:
+        "Modern portfolio and service website built with Next.js, TypeScript, Prisma, PostgreSQL, Stripe, Shadcn UI, and Magic UI — exploring full-stack patterns and polished UI design.",
       technologies: [
         "Next.js",
-        "Typescript",
+        "TypeScript",
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "ttps://techdulx-main.vercel.app/",
+          href: "https://techdulx-main.vercel.app/",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/techdulx-portfolio.jpg",
-      // video: "/techdulx-portfolio.jpg",
     },
-    {
-      title: "Techdulx",
-      href: "https://techdulx.com",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "I have develop simple news website in wordpress. Full seo friendly with full seo secure 95% speed overall full responsive provide content related tech products and T-news",
-      technologies: [
-        "Wordpress",
-        "php",
-        "Seo",
-        "Google adsense",
-        "google console/analytic",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://techdulx.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://wordpress.com/",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/techdulx-wordpress-portfolio.jpg",
-      // video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-  
   ],
   hackathons: [
-      {
-        title: "Himachal Govt Website",
-        dates: "Jan 2024 - Feb 2024",
-        location: "India",
-        description:
-          "Himachal Govt is an informational website developed for the people of Himachal Pradesh. It provides government-related updates, resources, and official announcements. The project focused on SEO optimization, Google Adsense integration, and performance tracking using Google Analytics and Search Console. Built with WordPress and PHP.",
-        image: "https://himachalgovt.com/logo.png", // Replace with real image if available
-        video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-        links: [
-          {
-            title: "Website",
-            icon: <Icons.globe className="h-4 w-4" />,
-            href: "https://himachalgovt.com",
-          },
-        ],
-      },
-      {
-        title: "Techdulx Next.js",
-        dates: "June 2025 - Present",
-        location: "Remote",
-        description:
-          "Techdulx is a modern portfolio and service-based website built using Next.js. Designed to explore UI design and full-stack development, it features animated components, Stripe payments, and a clean interface using Shadcn and Magic UI. Built with TypeScript, TailwindCSS, Prisma, and PostgreSQL.",
-        image: "https://techdulx.com/logo.png", // Optional, replace if available
-        video: "https://cdn.magicui.design/bento-grid.mp4",
-        links: [
-          {
-            title: "Website",
-            icon: <Icons.globe className="h-4 w-4" />,
-            href: "https://techdulx-main.vercel.app/",
-          },
-          {
-            title: "Source",
-            icon: <Icons.github className="h-4 w-4" />,
-            href: "https://github.com/magicuidesign/magicui",
-          },
-        ],
-      },
-      {
-        title: "Techdulx News Website",
-        dates: "April 2023 - September 2023",
-        location: "India",
-        description:
-          "A WordPress-powered news platform focused on tech product reviews and T-news. Fully SEO-optimized, responsive, and designed for high performance, achieving 95% speed score. Integrated with Google Adsense and Analytics for monetization and insights.",
-        image: "https://techdulx.com/news-thumbnail.png", // Replace if available
-        video: "https://cdn.llm.report/openai-demo.mp4",
-        links: [
-          {
-            title: "Website",
-            icon: <Icons.globe className="h-4 w-4" />,
-            href: "https://techdulx.com",
-          },
-          {
-            title: "Source",
-            icon: <Icons.github className="h-4 w-4" />,
-            href: "https://wordpress.com/",
-          },
-        ],
-      },
-        
-   
+    {
+      title: "HimachalGovt.com",
+      dates: "2024 — Present",
+      location: "Himachal Pradesh, India",
+      description:
+        "Government jobs, news, yojana, and tech updates for Himachal Pradesh. WordPress + custom PHP on Linux VPS with full SEO and analytics stack.",
+      image: "/himachalgovt-preview.jpg",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://himachalgovt.com",
+        },
+      ],
+    },
+    {
+      title: "HimachalGovt Android App",
+      dates: "2025 — Testing",
+      location: "Google Play",
+      description:
+        "Mobile app for HimachalGovt — jobs, news, and government updates. Currently in Play Store testing phase.",
+      image: "/himachalgovt-app-preview.jpg",
+      links: [
+        {
+          title: "Play Store",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://play.google.com/store/apps/details?id=mrlexcoder.himachalgovt",
+        },
+      ],
+    },
+    {
+      title: "Titan Drilling App",
+      dates: "2024 — 2025",
+      location: "Client Project",
+      description:
+        "React Native + Node.js app for field inspections, HSE forms, offline sync, and PDF reporting for drilling operations teams.",
+      image: "/atomic.png",
+      links: [
+        {
+          title: "GitHub",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/mrlexcoder",
+        },
+      ],
+    },
+    {
+      title: "Employee of the Year",
+      dates: "Jul 2025",
+      location: "Own Info Tech Pvt. Ltd.",
+      description:
+        "Awarded Employee of the Year for outstanding performance, dedication, and contribution to company growth.",
+      image: "/atomic.png",
+      links: [],
+    },
   ],
 } as const;

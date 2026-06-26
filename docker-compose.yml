@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    build: .
+    container_name: dev-himachalgovt-portfolio
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3095:3000"
+    environment:
+      NODE_ENV: production
