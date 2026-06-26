@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { DownloadIcon, HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Amit Kumar",
@@ -36,10 +36,12 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/resources", icon: DownloadIcon, label: "Resources" },
   ],
   contact: {
     email: "amitsandhu6424@gmail.com",
+    workEmail: "dev@himachalgovt.com",
+    webmailUrl: "https://webmail.himachalgovt.com/",
     tel: "+918628882486",
     social: {
       GitHub: {
@@ -62,7 +64,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:amitsandhu6424@gmail.com",
+        url: "mailto:dev@himachalgovt.com",
         icon: Icons.email,
         navbar: false,
       },

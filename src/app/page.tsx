@@ -202,20 +202,24 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Open to web, app, and server work. Reach out on{" "}
+                Open to web, app, and server work. Email{" "}
+                <Link
+                  href={`mailto:${DATA.contact.workEmail}`}
+                  className="text-blue-500 hover:underline"
+                >
+                  {DATA.contact.workEmail}
+                </Link>
+                ,{" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
                   target="_blank"
                 >
                   LinkedIn
-                </Link>{" "}
-                or{" "}
-                <Link
-                  href={`mailto:${DATA.contact.email}`}
-                  className="text-blue-500 hover:underline"
-                >
-                  email
+                </Link>
+                , or download my{" "}
+                <Link href="/resources" className="text-blue-500 hover:underline">
+                  resume
                 </Link>
                 .
               </p>
